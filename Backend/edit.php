@@ -13,7 +13,7 @@
   <body>
     <div class="container">
       <div class="box form-box">
-        <header>Login</header>
+        <header>Change Your Profile</header>
         <form action="" method="post">
           <div class="field input">
             <label for="username">Username</label>
@@ -21,8 +21,25 @@
           </div>
 
           <div class="field input">
-            <label for="username">Password</label>
-            <input type="password" name="password" id="password" required />
+            <label for="email">Email Address</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              autocomplete="off"
+              required
+            />
+          </div>
+
+          <div class="field input">
+            <label for="location">Location</label>
+            <input
+              type="text"
+              name="location"
+              id="location"
+              autocomplete="off"
+              required
+            />
           </div>
 
           <div class="field input">
@@ -30,13 +47,9 @@
               type="submit"
               name="submit"
               class="btn"
-              value="Login"
+              value="Update"
               required
             />
-          </div>
-
-          <div class="links">
-            Don't have an account? <a href="register.html">Sign Up Now</a>
           </div>
         </form>
       </div>
