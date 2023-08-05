@@ -4,12 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+    /> -->
     <title>TechMentorHer</title>
   </head>
   <body>
     <div class="container">
       <div class="box form-box">
         <header>Login</header>
+        <form action="" method="post">
+          <div class="field input">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required />
+          </div>
+
+          <div class="field input">
+            <label for="username">Password</label>
+            <input type="password" name="password" id="password" required />
+          </div>
+
+          <div class="field input">
+            <input
+              type="submit"
+              name="submit"
+              class="btn"
+              value="Login"
+              required
+            />
+          </div>
+
+          <div class="links">
+            Don't have an account? <a href="register.html">Sign Up Now</a>
+          </div>
+        </form>
       </div>
     </div>
   </body>
