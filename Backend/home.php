@@ -19,9 +19,11 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
 <link rel="shortcut icon" href="./favicon_io/favicon.ico">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<script src="script.js" defer></script>
     <title>TechMentorHer</title>
   </head>
-  <body>
+  <body class="show-chatbot">
 
   <?php
 // Assuming you have a database connection established and the session started.
@@ -63,7 +65,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 }
     ?>
-    <!-- paste -->
     <!--Nav-bar-->
 <nav id="nav-bar" class="navbar nav-expand-lg bg-dark navbar-dark py-3 fixed-top"> 
   <div class="container">
@@ -109,8 +110,31 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <a href="#!" class="btn info">Learn More!</a>
   </div>
 </div>
-<!-- Card -->
+<!-- SheBot -->
+<button class="chatbot-toggler">
+  <span class="material-symbols-outlined">mode_comment</span>
+  <span class="material-symbols-outlined">close</span>
+</button>
+    <div class="chatbot">
+      <header>
+        <h2>SheBot</h2>
+        <span class="material-symbols-outlined">close</span>
+      </header>
 
+      <div class="chatbox">
+        <div class="chat incoming">
+          <span class="material-symbols-outlined">smart_toy</span>
+          <p>Hi there👋🏽 <br> How can I help you today?</p>
+        </div>
+        
+      </div>
+
+      <div class="chat-input">
+        <textarea placeholder="Enter a message...." required></textarea>
+        <span id="send-btn" class="material-symbols-outlined">send</span>
+      </div>
+    </div>
+<!-- Card -->
 <!-- Team Section -->
 <div class="container-fluid p-5" id="team">
   <div class="container pb-5">
