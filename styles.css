@@ -127,6 +127,17 @@ ul {
     text-decoration: none;
 }
 
+#about-section {
+  background-color: var(--dark-blue);
+}
+
+.small-boxes {
+  border: 1px solid var(--main-white);
+  padding: 5px;
+  border-radius: 3px;
+  margin: 10px;
+}
+
 #team {
     background-color: var(--dark-purple);
     color: var(--main-white);
