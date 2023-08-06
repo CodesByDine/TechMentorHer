@@ -23,7 +23,7 @@
 <script src="script.js" defer></script>
     <title>TechMentorHer</title>
   </head>
-  <body class="show-chatbot">
+  <body>
 
   <?php
 // Assuming you have a database connection established and the session started.
