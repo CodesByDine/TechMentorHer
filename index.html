@@ -110,7 +110,7 @@
         <h1 class="">OUR COURSES</h1>
       </div>
       <div class="col-md">
-        <img src="./images/coding-1853305_1280.jpg" alt="" class="img-fluid" id="hover">
+        <a href="./courses/software.html"><img src="./images/coding-1853305_1280.jpg" alt="" class="img-fluid" id="hover"></a>
       </div>
       <div class="col-md">
         <img src="./images/accountant-1794122_1280.png" alt="" class="img-fluid" id="hover">
@@ -285,12 +285,18 @@
   </section>
 
   <!--Contact-->
-  <section class="contact container-fluid text-light" id="mentors">
-    <div class="container">
+  <section class="bg-image contact container-fluid text-light" id="mentors" id="bg-image" style="background-image: url(./images/startup-593341_1920.jpg);">
+    <div class="container" id="contact-titles">
       <div class="subtitles text-center p-5">
+        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+        <lord-icon
+            src="https://cdn.lordicon.com/mjmrmyzg.json"
+            trigger="hover"
+            colors="primary:#4be1ec,secondary:#cb5eee"
+            style="width:250px;height:250px">
+        </lord-icon>
         <h1>Contact one of our mentors!</h1>
         <h2>Leave them a message:</h2>
-
       </div>
 
       <div class="mb-3">
@@ -315,53 +321,6 @@
     </div>
   </section>
 
-  <!--Profile-->
-  <div class="container mt-5" id="profile">  
-    <h1 class="text-center text-light">Profile</h1>  
-    <div class="row d-flex justify-content-center">    
-        <div class="col-md-7">         
-            <div class="card p-3 py-4"> 
-                      
-                <div class="text-center">
-                    <img src="images/undraw_engineering_team_a7n2 (1).svg" width="400" class="rounded-circle">
-                </div>
-                
-                <div class="text-center mt-3">
-                    <span class="p-1 px-4 rounded text-white" id="card-3">Premium</span>
-                    <h3 class="mt-2 mb-0">Jane Doe</h3>
-                    <h4>UI/UX Designer</h4>
-                    
-                    <div class="px-4 mt-1">
-                        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                        <h4>Things I need help with:</h4>
-                        <p>JavaScript</p>
-                        <p>Python</p>
-                        <p>CSS animations</p>
-                        <h4>Email address:</h4>
-                        <p>janedoe@gmail.com</p>
-                        <h4>Location:</h4>
-                        <p>Riversrand</p>
-                        <h4>Date of birth</h4>
-                        <p>00/00/00</p>
-                    </div>
-                    
-                    <ul class="social-list">
-                        <li><i class="fa fa-facebook"></i></li>
-                        <li><i class="fa fa-dribbble"></i></li>
-                        <li><i class="fa fa-instagram"></i></li>
-                        <li><i class="fa fa-linkedin"></i></li>
-                        <li><i class="fa fa-google"></i></li>
-                    </ul>
-                    
-                    <div class="buttons">
-                        <button class="btn btn-outline-primary px-4">Change</button>
-                        <button class="btn btn-primary px-4 ms-3">Delete</button>
-                    </div>
-                </div>
-            </div> 
-        </div> 
-    </div>
-  </div>
 
   <!-- Footer -->
   <footer class="text-center text-light bg-dark text-muted">
@@ -470,6 +429,7 @@
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
       <a class="text-reset fw-bold" href="https://mdbootstrap.com/">TechMentorHER</a>
+      <a href="https://lordicon.com/">Icons by Lordicon.com</a>
     </div>
     <!-- Copyright -->
   </footer>

@@ -181,6 +181,10 @@ ul {
     color: var(--main-white);
 }
 
+#mentors {
+  padding: 50px;
+}
+
 #sign-up {
     background-color: var(--red);
     box-shadow: 2px 9px 2px black;
@@ -197,6 +201,12 @@ ul {
     box-shadow: 0 5px var(--main-black);
     transform: translateY(4px);
   }
+
+#contact-titles {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+}
 
 /* pricing plan cards */
 #card-1 {
